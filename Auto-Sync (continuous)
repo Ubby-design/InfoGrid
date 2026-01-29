@@ -1,0 +1,66 @@
+1.2 Auto Sync (continuous)
+
+Instead of:
+
+“Upload files manually”
+
+You use:
+
+webhooks
+git pull
+cron sync
+CI triggers
+
+Example
+git push → GitHub Action → sync → InfoGrid
+
+
+So:
+
+always fresh
+
+always accurate
+
+zero manual work
+
+Huge value.
+
+
+
+**Simple Expalnation:
+
+Think of it like this:
+
+Step 1 — You save your work
+git push
+
+
+You send your new files to GitHub.
+
+Step 2 — Robot wakes up 🤖
+
+GitHub Actions says:
+
+“Oh! New code detected. Let me deploy it.”
+
+Step 3 — Robot does tasks
+
+It:
+
+installs dependencies
+
+builds site/app
+
+tests
+
+copies files to server
+
+Step 4 — InfoGrid updates automatically
+
+Your server refreshes.
+
+Users see new version instantly.
+
+No manual copying. No SSH. No stress.
+
+
