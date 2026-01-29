@@ -1,0 +1,51 @@
+1.4 Structuring (critical step)
+
+After parsing, you don’t store text.
+
+You build structured knowledge objects.
+
+InfoGrid internal model
+
+Think like:
+
+Entities
+Service
+Runbook
+Pipeline
+Environment
+Owner
+Resource
+Policy
+
+Example internal database
+Service: payments
+Owner: DevOps team
+Runbooks:
+   - deploy
+   - rollback
+   - restart
+Pipelines:
+   - build
+   - deploy-prod
+Infra:
+   - db
+   - redis
+
+
+Now InfoGrid understands:
+
+👉 relationships
+
+This enables:
+
+Later steps like:
+
+“show all services owned by Team A”
+
+“deploy this service”
+
+“which runbooks affect prod?”
+
+“what changed last week?”
+
+Competitors can’t do this because they only have raw text.
