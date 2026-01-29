@@ -1,0 +1,73 @@
+Parsing (Very Important):
+
+1.3 Parsing (VERY important)
+
+This is where magic begins.
+
+InfoGrid doesn’t just copy files.
+
+It understands them.
+
+Example 1 — Markdown
+
+Input:
+
+deploy payments service:
+helm upgrade payments ./chart
+
+
+Parser extracts:
+
+type: runbook
+service: payments
+action: deploy
+command: helm upgrade
+
+
+Now machine-readable.
+
+Example 2 — GitHub Actions YAML
+
+Input:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - helm upgrade payments
+
+
+Parser extracts:
+
+pipeline: deploy
+service: payments
+environment: prod
+trigger: manual
+
+Example 3 — Helm chart
+
+Input:
+
+service:
+  name: payments
+  port: 8080
+
+
+Parser extracts:
+
+service: payments
+port: 8080
+dependencies: db, redis
+
+Example 4 — Terraform
+
+Input:
+
+resource "aws_db_instance" "payments_db"
+
+
+Parser extracts:
+
+resource: database
+service: payments
+provider: AWS
