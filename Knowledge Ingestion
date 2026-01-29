@@ -1,0 +1,205 @@
+KNOWLEDGE INGESTION:
+
+The foundation of the entire “Operational Intelligence” idea 
+
+If Step 1 is weak → InfoGrid becomes “just another docs site.”
+If Step 1 is strong → InfoGrid becomes intelligent + automatable + monetizable.
+
+Step 1 — Knowledge Ingestion (Detailed)
+What Step 1 really means
+
+Most tools think:
+
+“Users will write documentation manually.”
+
+That’s the first mistake competitors make.
+
+Engineers hate writing docs.
+
+So their docs:
+
+outdated
+
+incomplete
+
+stale
+
+ignored
+
+Human writes docs → upload → store → done
+
+Problems:
+
+manual
+
+slow
+
+outdated fast
+
+unreliable
+
+low trust
+
+So clients won’t pay much.
+
+✅ InfoGrid Approach
+👉 “Don’t ask humans to write knowledge — extract it automatically.”
+
+This is the key innovation.
+
+🟢 Step 1 Goal
+Convert ALL operational knowledge into structured, machine-readable data
+
+Not just markdown.
+
+Sources:
+
+code repos
+
+CI/CD
+
+infra configs
+
+scripts
+
+runbooks
+
+markdown
+
+incidents
+
+APIs
+
+Because:
+
+👉 Real operational knowledge lives in code, not docs.
+
+🧩 Step-by-Step Mechanics
+
+Let’s break Step 1 into sub-steps.
+
+🔹 1.1 Connect sources
+
+InfoGrid connects to:
+
+Inputs
+
+A. Git repositories:
+
+GitHub / GitLab / Bitbucket
+
+Contains:
+
+markdown
+
+Helm
+
+Terraform
+
+YAML
+
+scripts
+
+runbooks
+
+B. CI/CD systems:
+
+.github/workflows
+.gitlab-ci.yml
+jenkinsfiles
+
+
+Contains:
+
+deploy steps
+
+build commands
+
+environments
+
+C. Infra configs
+
+helm charts
+terraform
+k8s manifests
+docker compose
+
+Contains:
+
+services
+
+ports
+
+dependencies
+
+D. Optional
+
+S3 buckets
+
+incident logs
+
+API specs (OpenAPI)
+
+monitoring configs
+
+🔥 Why this matters
+
+Competitors only ingest:
+
+markdown
+
+
+InfoGrid ingests:
+
+entire operational stack
+
+
+This is the difference between:
+
+❌ docs
+vs
+✅ intelligence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Which makes the platform low value.
