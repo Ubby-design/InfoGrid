@@ -1,0 +1,18 @@
+🟣 2.5 Internal Architecture (High-Level)
+Logical layers:
+
+Ingestion Layer (Step 1) → raw knowledge
+
+Parsing / Structuring Layer → entities & relationships
+
+Graph/Database Layer → stores entities & connections
+
+Graph DB (Neo4j / ArangoDB) or relational DB + relationships table
+
+Intelligence Layer → reasoning, triggers, AI suggestions
+
+Execution Layer → pipelines, runbooks, API calls
+
+Analytics Layer → metrics, usage, compliance reports
+
+Think of Step 2 as layer 2–4 in this architecture.
