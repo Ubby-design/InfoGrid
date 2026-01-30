@@ -1,0 +1,28 @@
+🟡 2.2 Indexing & Search Layer
+
+Once structured, InfoGrid needs to let humans or AI query knowledge intelligently.
+
+Options
+
+Elastic / OpenSearch → full-text + structured queries
+
+Vector DB / embeddings → for AI recommendations and semantic search
+
+Example query:
+
+"How do I rollback the payments service?"
+
+
+InfoGrid returns:
+
+Runbook steps
+
+Pipeline to trigger
+
+Commands
+
+Last successful run
+
+Dependencies affected
+
+Competitors: just text → no AI, no actionable answer.
