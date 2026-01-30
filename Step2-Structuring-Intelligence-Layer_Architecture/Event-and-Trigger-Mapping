@@ -1,0 +1,12 @@
+2.4 Event & Trigger Mapping
+
+Each knowledge piece can be actionable:
+
+Event	Trigger
+New commit to Git	Auto-sync + parse + index
+CI/CD failure	Suggest rollback / runbook
+Policy violation	Alert team + suggest remediation
+Audit requested	Generate compliance report automatically
+
+Competitors: manual workflows, human alerts.
+InfoGrid: automated, actionable, immediate.
