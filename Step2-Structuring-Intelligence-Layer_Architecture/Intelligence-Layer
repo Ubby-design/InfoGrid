@@ -1,0 +1,13 @@
+2.3 Intelligence Layer (Business Logic / AI)
+
+This is the brain:
+
+Dependency Analysis: which pipelines / services affect others
+
+Impact Assessment: “If I deploy service A, what downstream services are affected?”
+
+Automation Suggestions: “Deploy pipeline X → triggers runbook Y”
+
+AI Recommendations: “Rollback steps last time failed at step 3 → suggest alternate command”
+
+This layer is what converts static knowledge into operational intelligence.
