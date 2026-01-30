@@ -1,0 +1,19 @@
+🟤 2.6 Technical Considerations
+
+Database choice:
+
+Graph DB → best for dependencies & impact analysis
+
+Relational → simpler, good for small-scale
+
+API layer:
+
+Expose structured knowledge for UI / automation / AI
+
+Event-driven updates:
+
+Use webhooks, message queues (Kafka, RabbitMQ)
+
+Versioning:
+
+Every entity has history → rollback & audit ready
