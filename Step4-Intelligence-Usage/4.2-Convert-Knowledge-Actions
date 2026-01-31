@@ -1,0 +1,32 @@
+4.1 Convert Knowledge → Actions
+
+Earlier we structured:
+
+service: payments
+pipeline: deploy-prod
+commands:
+  - helm upgrade payments ./chart
+owner: devops
+
+
+Now Step 4 turns this into:
+
+👉 Executable operation
+
+Examples:
+
+Deploy
+
+Rollback
+
+Restart
+
+Run test suite
+
+Provision infra
+
+Rotate secrets
+
+Generate report
+
+Trigger pipeline
