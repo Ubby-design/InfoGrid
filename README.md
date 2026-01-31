@@ -1,11 +1,14 @@
 # InfoGrid
-InfoGrid as an Operational Intelligence System
+InfoGrid as a headless operational intelligence platform that powers flexibility, stability and outcome-driven operations.
 
-Knowledge Ingestion:
+Basically could be considered as Documentation as a Service (DaaS):
+A structured, real-time knowledge delivered through API, that's actionable and intelligence-ready.
 
-1. Connect sources
-2. Auto-sync
-3. Parsing
-4. Structuring
-5. Indexing
-6. Store in knowledge graph
+Operational Intelligence Workflow:
+       
+1. Knowledge Ingestion
+2. Structuring & Intelligence Layer
+3. Continous Auto-Sync (ensures real-time data)
+4. Intelligence Usage ( Action/Execution)
+5. AI & Intelligence Layer (Predictive, Recommendations & Auto Remediations)
+
