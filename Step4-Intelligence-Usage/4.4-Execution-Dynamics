@@ -1,0 +1,43 @@
+4.4 How Execution Happens Technically
+
+This is your architecture.
+
+Option A — GitHub Actions (simplest for V3)
+InfoGrid → triggers workflow_dispatch → runs job
+
+
+Pros:
+
+Easy
+
+Free runners
+
+Secure secrets
+
+Perfect starting point
+
+Option B — Self-hosted runners
+InfoGrid → runner on client VM
+
+
+Pros:
+
+Private infra
+
+More control
+
+Enterprise friendly
+
+Option C — Kubernetes Jobs
+InfoGrid → creates k8s Job/Pod
+
+
+Pros:
+
+Scalable
+
+Fast
+
+Ideal for SaaS
+
+This becomes your V4 architecture.
