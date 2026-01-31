@@ -1,0 +1,17 @@
+3.3 Example Scenario
+
+Scenario: A DevOps engineer updates the payments Helm chart
+
+Flow:
+Engineer commits -> GitHub webhook triggers InfoGrid sync
+      ↓
+Parser detects new Helm values
+      ↓
+Knowledge graph updated: service, dependencies, environment
+      ↓
+AI layer updates recommendations for rollback/deploy
+      ↓
+CI/CD trigger suggestions updated
+
+
+Result: Clients always see actionable, current intelligence, not outdated command
