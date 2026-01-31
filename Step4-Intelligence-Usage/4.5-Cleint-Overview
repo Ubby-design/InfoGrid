@@ -1,0 +1,48 @@
+4.5 What this looks like for clients
+Client Dashboard
+
+Instead of:
+
+500 markdown pages
+
+They see:
+
+Actions:
+
+Payments Service
+
+Deploy
+
+Rollback
+
+Restart
+
+Run tests
+
+Database
+
+Backup
+
+Restore
+
+Migrate
+
+Infrastructure
+
+Terraform apply
+
+Destroy staging
+
+Scale cluster
+
+Compliance
+
+Run audit
+
+Generate report
+
+This is NOT documentation anymore.
+
+This is:
+
+👉 Operations Control Center
