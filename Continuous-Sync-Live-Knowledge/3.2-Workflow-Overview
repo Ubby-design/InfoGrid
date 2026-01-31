@@ -1,0 +1,47 @@
+3.2 Workflow Overview
+
+Trigger detection
+
+Git push / merge / commit → triggers sync
+
+Cron jobs for external sources
+
+Webhooks from monitoring or cloud APIs
+
+Fetch new changes
+
+Pull updated files (Markdown, YAML, Helm, Terraform, scripts)
+
+Pull CI/CD updates
+
+Pull infra changes (k8s manifests, cloud resources)
+
+Parse & validate
+
+Step 1 parser re-runs
+
+Detect changes, new entities, removed entities
+
+Validate syntax, commands, environment matches
+
+Update structured knowledge
+
+Step 2 intelligence layer receives updates
+
+Knowledge graph updated
+
+Dependencies recalculated
+
+Version history maintained
+
+Index updated
+
+Search index rebuilt or incrementally updated
+
+AI embeddings updated if using semantic search
+
+Push notifications / triggers
+
+Notify teams of changes
+
+Update dashboards, alerts, or automated runbooks if needed
