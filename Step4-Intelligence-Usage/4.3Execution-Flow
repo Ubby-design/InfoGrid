@@ -1,0 +1,67 @@
+4.3 Execution Flow (Real example)
+Scenario: Incident happens
+
+Payments API failing.
+
+Instead of:
+
+❌ “Search docs → copy commands → SSH → pray”
+
+They use:
+
+InfoGrid:
+Dashboard → payments → Rollback → Click
+
+Behind the scenes:
+Step-by-step
+1️⃣ User clicks action
+
+"Rollback payments"
+
+2️⃣ InfoGrid validates
+
+permissions
+
+environment
+
+dependencies
+
+safety checks
+
+3️⃣ Selects execution method
+
+GitHub Actions
+
+Kubernetes job
+
+SSH runner
+
+Self-hosted runner
+
+Argo Workflow
+
+4️⃣ Executes
+
+Runs:
+
+helm rollback payments
+
+5️⃣ Logs results
+
+success/failure
+
+output
+
+audit trail
+
+6️⃣ Updates knowledge graph
+
+State now updated to previous version
+
+Result
+
+Client sees:
+
+✅ Rollback complete
+✅ Logs attached
+✅ Incident resolved
